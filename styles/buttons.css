@@ -1,0 +1,49 @@
+.sub{
+    background-color: red;
+    color: white;
+    border: none;
+    height: 36px;
+    width: 105px;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: opacity 1s;
+}
+.sub:hover{
+    opacity: 0.5;
+}
+
+.sub:active{
+    opacity: 0.5;
+}
+.join{
+    background-color: white;
+    color:blue;
+    border-color: blue;
+    border-style: solid;
+    border-width: 1px;
+    height: 36px;
+    width: 65px;
+    border-radius: 2px;
+    cursor: pointer;
+    margin: 10px;
+    transition: background-color 1s, color 1s;
+}
+.join:hover{
+    background-color: blue;
+    color: white;
+}
+.tweet{
+    background-color: rgba(11, 154, 244, 0.584);
+    color: white;
+    height: 36px;
+    width: 78px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 15px;
+    transition: box-shadow 5s;
+}
+.tweet:hover{
+    box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.15);
+}

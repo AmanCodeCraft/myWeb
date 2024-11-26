@@ -1,3 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.pic{
+    width: 200px;
+}
+
+.box{
+    margin: 25px;
+    width: 200px;
+    height: 335px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.7);
+}
+
+h1,p,button{
+    margin: 5px;
+}
+
+p{
+    color: gray;
+    font-size: 20px;
+}
+
+.btn{
+    background-color: rgb(64, 74, 255);
+    height: 35px;
+    width: 100px;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+    transition: background-color 1s,
+                color .5s ;
+}
+
+.btn:hover{
+   background-color: white;
+   color:  rgb(64, 74, 255);
+   border: 2px solid rgb(64, 74, 255);
+}
 .sub{
     background-color: red;
     color: white;

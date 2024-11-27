@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>imageGallary</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .gallary{
+            margin: 40px 50px;
+            border: 2px solid black;
+            display: inline-block;
+            padding: 5px;
+            transition: all ease-out .5s;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.7);
+            border-radius: 5px;
+        }
+        .gallary .discription{
+            text-align: center;
+            font-weight: bold;
+            font-size: 30px;
+            margin: 5px auto;
+        }
+        .gallary:hover{
+           transform: scale(1.2);
+           box-shadow: 0 0 25px rgba(178, 122, 31, 0.7);
+        }
+
+        .container{
+            border: 1px solid gray;
+            margin: 25px;
+            padding: 10px;
+            border-radius: 10px;
+
+        }
+
+        .container h1{
+            text-align: center;
+            font-weight: bold;
+            font-size: 50px;
+            margin-top: 20px;
+        }
+
+        .goback{
+            border-radius: 20px;
+            padding: 30px;
+            font-size: 50px;
+            text-decoration: none;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>My Gallary</h1>
+        <div class="gallary">
+            <a href="#">
+                <img src="./doru.png" alt="doru">
+            </a>
+            <div class="discription">Doramon</div>
+        </div>
+
+        <div class="gallary">
+            <a href="#">
+                <img src="./doru.png" alt="doru">
+            </a>
+            <div class="discription">Doramon</div>
+        </div>
+        <div class="gallary">
+            <a href="#">
+                <img src="./doru.png" alt="doru">
+            </a>
+            <div class="discription">Doramon</div>
+        </div>
+
+        <div class="gallary">
+            <a href="#">
+                <img src="./doru.png" alt="doru">
+            </a>
+            <div class="discription">Doramon</div>
+        </div>
+    </div>
+    <center>
+    <a class="goback" href="https://amancodecraft.github.io/myWeb/">Go Back</a>
+    </center>
+</body>
+</html>

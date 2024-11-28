@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>linked in logic page</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+        .logo{
+            position: relative;
+            left: 50px;
+            width: 135px;
+            margin: 20px;
+        }
+
+        .pic{
+            width: 100%;
+        }
+
+        .box{
+            border: 2px solid white;
+        }
+
+        .shadow{
+            box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7);
+        }
+        
+        .flex{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .sameboxes{
+            width: 30%;
+            border-radius: 15px;
+            padding: 20px;
+        }
+
+        h2{
+            font-size: 2.2rem;
+            font-weight: 520;
+        }
+
+        .textbox{
+            display: block;
+            padding: 8px;
+            margin: 15px 0px;
+            width: 99%;
+            height: 45px;
+            outline: none;
+            font-size: 1rem;
+            border:1px solid rgb(91, 87, 87);
+        }
+
+        .btn1{
+            background-color: blue;
+            height: 45px;
+            border-radius: 35px;
+            margin: 15px 0px;
+            padding: 5px;
+            color: white;
+            font-size: 1.2rem;
+            font-weight: 400;
+        }
+
+        p{
+            margin-top: 35px;
+            color: rgb(108, 106, 106);
+        }
+
+        a{
+            text-decoration: none;
+            font-weight: 700;
+            font-size: .9rem;
+            color: rgb(68, 102, 179);
+        }
+
+        hr{
+            margin: 25px 0px;
+        }
+
+        .hero-section{
+            margin-bottom: 50px;
+        }
+
+        .btn2{
+            border: .13rem solid rgb(77, 63, 63);
+            border-radius: 35px;
+            height: 45px;
+            padding: 0px 18px;
+            color: rgb(62, 55, 55);
+            font-size: 1.1rem;
+            font-weight: 500;
+        }
+
+        .googlepic{
+            width: 20px;
+            margin: 5px;
+        }
+
+        .right1{
+            position: absolute;
+            top: 40px;
+            right: 20px;
+            background-color: rgb(239, 246, 248);
+        }
+
+        .right1>p{
+            margin: 8px 0px;
+        }
+
+        .right2{
+            position: absolute;
+            right: 20px;
+            bottom: 25px;
+            background-color: rgb(239, 246, 248);
+        }
+
+        .darkshadow{
+            box-shadow: 0px 14px 25px rgba(0, 0, 0, .4);
+        }
+
+        .cros{
+            position: absolute;
+            right: 22px;
+            top: 22px;
+        }
+
+        .smallIcon{
+            position: relative;
+            margin-bottom: 10px;
+        }
+
+        .smallP{
+            position: absolute;
+            top: -10px;
+            left: 52px;
+        }
+
+        ul{
+            list-style: none;
+        }
+
+        ul>li>a{
+            font-size: 1.1rem;
+            margin-right: 25px;
+            color: rgb(98, 93, 93);
+        }
+
+        footer{
+            height: 40px;
+            width: 100%;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="logo">
+        <img class="pic" src="./assets/linkedinlogo.png">
+    </div>
+    <div class="hero-section flex">
+        <div class="center-box box shadow sameboxes">
+            <h2>Join LinkedIn</h2>
+            <input type="email" placeholder="Email" class="textbox">
+            <input type="password" placeholder="Password (6+ characters)" class="textbox">
+            <p>By clicking Continue, you agree to LinkedIns  <a href="#">User Agreement, Privacy Policy, </a>and <a href="">Cookie Policy.</a></p>
+            <a href="#"><div class="btn1 flex">Agree & Join</div></a>
+            <hr>
+            <a href="#"><div class="btn2 flex">
+                <img src="./assets/googlesmall.png" alt="google" class="googlepic">
+                Continue with Google
+            </div></a>
+            <div class="flex">
+                <p style="color: black; font-size: 1.1rem;">Already on linkedIn? <a href="#">Sign in</a></p>
+            </div>
+        </div>
+
+        <div class="right1 sameboxes darkshadow">
+            <h3>Agree & Join LinkedIn</h3>
+            <p>By clicking Continue to join or sign in, you agree to LinkedIns  <a href="#">User Agreement, Privacy Policy, </a>and <a href="">Cookie Policy.</a></p>
+        </div>
+
+        <div class="right2 sameboxes darkshadow">
+            <img src="./assets/smallLinkedin.png" alt="img" width="25px" class="smallIcon">
+            <p class="smallP">LINKEDIN</p>
+            <img src="./assets/cross.png" style="width: 22px;" alt="cross"  class="cros">
+            <h3>LinkedIn is Better on the app</h3>
+            <p style="margin: 10px 0px;">Don't have app? Get in the Microsoft Store.</p>
+            <a href="#"><button class="btn2" style="border: 1px solid; color: blue; margin: 5px; cursor: pointer;">Open the app</button></a>
+        </div>
+    </div>
+
+    <footer>
+        <ul class="flex">
+            <li><a href="#">2024</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Accessibility</a></li>
+            <li><a href="#">User Agreement</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Cookie Policy</a></li>
+            <li><a href="#">Copyright</a></li>
+        </ul>
+    </footer>
+</body>
+</html>

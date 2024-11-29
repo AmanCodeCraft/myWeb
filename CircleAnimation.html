@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS Animation Example</title>
+  <style>
+    /* Define the keyframes */
+    @keyframes bounce {
+      0% {
+        transform: translateY(0); /* Original position */
+      }
+      50% {
+        transform: translateY(-50px); /* Move up by 50px */
+        transform: scale(4);
+        transform: rotate(350);
+        box-shadow: 0px 0px 38px rgba(228, 19, 19, 0.9);
+      }
+      100% {
+        transform: translateY(0); /* Return to original position */
+        box-shadow: 5px 5px 38px rgba(228, 19, 19, 0.8);
+      }
+    }
+
+    /* Apply animation to the box */
+    .animated-box {
+      width: 100px;
+      height: 100px;
+      background-color: rgb(236, 60, 60);
+      margin: 250px auto; /* Center the box horizontally */
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      /* Animation properties */
+      animation-name: bounce; /* Name of the animation */
+      animation-duration: 1.5s; /* Duration of one bounce cycle */
+      animation-timing-function: ease-in-out; /* Smooth in and out motion */
+      animation-iteration-count: infinite; /* Repeat indefinitely */
+      animation-direction: alternate; /* Reverses direction on each cycle */
+    }
+  </style>
+</head>
+<body>
+  <h1 style="text-align: center;">CSS Animation Example</h1>
+  <div class="animated-box">
+    <h2 style="text-align: center; color: white;">Virus</h2>
+  </div>
+<br><br><br>
+  <center>
+    <a class="goback" href="https://amancodecraft.github.io/myWeb/" style="border-radius: 20px;
+    padding: 30px;
+    font-size: 50px;
+    text-decoration: none;">Go Back</a>
+</center>
+</body>
+</html>
